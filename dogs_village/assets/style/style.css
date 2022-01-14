@@ -1,0 +1,149 @@
+body {
+    font-family: Verdana, Courier, Arial;
+    background-color: #FAFAFA;
+}
+
+.mainpage_head {
+    font-size: 95.4px;
+    position: relative;
+    top: -20px;
+}
+
+.mainpage_secondhead {
+    font-size: 60px;
+    position: relative;
+    top: -70px;
+}
+
+.header_dog {
+    font-family: "Comic Sans MS", Verdana, Arial;
+    background-image: url("../images/black_dog.jpg");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px #2b2b2b;
+    text-align: justify;
+
+}
+
+.header_dog, .main_menu, footer {
+	color: #FB5706;
+	background-color: #DCDCDC;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.main_menu{
+    font-size: large;
+}
+
+/*.who_we_are, .positive_training {
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+/*.main_page_article {
+    width: 500px;
+    position: relative;
+    display: inline-box;
+}
+
+.who_we_are, .positive_training {
+	width: 680px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px;
+	background-color: white;
+}*/
+
+.who_we_are, .positive_training {
+    background-color: white;
+    width: 680px;
+    height: 360px;
+    padding: 25px;
+    margin: auto 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.who_we_are {
+    float: right;
+    margin-top: -18px;
+}
+
+.positive_training {
+    float: left;
+}
+
+.main_page_contact {
+    float: left;
+    background-color: white;
+    width: 680px;
+    height: 130px;
+    padding: 25px;
+    margin: 40px;
+    position: relative;
+    left: 400px;
+    font-weight: bolder;
+    font-size: large;
+    color: #2b2b2b;
+}
+
+.clear_float {
+    clear: both;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_upper {
+    text-transform: uppercase;
+}
+
+a {
+    color: #2b2b2b;
+}
+
+a:hover {
+    color: #FB5706;
+}
+
+.booking_form {
+	width: 750px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+/*.doggy_img {
+    background-image: url("../images/dog_sniff.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.booking_img {
+    width: 250px;
+    height: 200px;
+}
+
+
+
+
+
+/* #DCDCDC light grey
+    #2b2b2b dark grey
+    #FB5706 orange
+    #91cf97 green */
