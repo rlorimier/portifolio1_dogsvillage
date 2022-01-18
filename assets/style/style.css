@@ -193,13 +193,14 @@ footer nav, footer div {
 
 #photos {
     clear: both;
-    line-height: 0;
+    line-height: 2px;
     column-count: 4;
     column-gap: 0px;
 }
 
 #photos img {
     width: 100%;
+    border: 2px solid #1A2B00;
 }
 
 
