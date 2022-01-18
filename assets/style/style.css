@@ -1,69 +1,90 @@
+@font-face {
+    font-family: Doggy;
+    src: url("font/GOODDC__.TTF");
+}
+@font-face {
+    font-family: DogIcon;
+    src: url("font/candog_icon.ttf");
+}
+@font-face {
+    font-family: TinDog;
+    src: url("font/TinDog_body.ttf");
+}
 
 /* #DCDCDC light grey
     #2b2b2b dark grey
     #FB5706 orange
     #91cf97 green */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Verdana, Courier, Arial;
-    background-color: #FAFAFA;
+    background-color: #EBE5D8;
 }
 
-.mainpage_head {
-    font-size: 95.4px;
-    position: relative;
-    top: -20px;
-}
-
-.mainpage_secondhead {
-    font-size: 60px;
-    position: relative;
-    top: -70px;
-}
-
-.header_dog {
-    font-family: "Comic Sans MS", Verdana, Arial;
-    background-image: url("../images/black_dog.jpg");
-    height: 340px;
-    background-position: center;
+/* header */
+#top_image {
+    background: url("../images/black_dog.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    text-shadow: 2px 2px #2b2b2b;
-    text-align: justify;
-
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-.header_dog, footer {
-	color: #FB5706;
-	background-color: #DCDCDC;
-	font-weight: bold;
-	padding: 8px;
-}
-
-
-/* main menu */
-#main_menu {
+#top_page {
+    font-family: Doggy, Verdana, monospace;
+    width: 100%;
     color: #FB5706;
-	background-color: #DCDCDC;
-    font-size: larger;
-    font-weight: bold;
+    margin: 20px;
+}
+
+#top_page h1 {
+    font-size: 170px;
+    letter-spacing: 3px;
+}
+
+#top_page h2 {
+    font-size: 95px;
+    letter-spacing: 2px;
+}
+
+/* menu bar */
+#main_menu {
+    font-family: Doggy, Verdana, monospace;
+	background-color: #1A2B00;
+    font-size: 40px;
 	text-align: center;
-	padding: 2px;
+	padding: 1px;
+}
+
+#main_menu ul {
+    margin: 10px;
 }
 
 #main_menu li {
     display: inline;
     list-style-type: none;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 #main_menu i {
     color: #FB5706;
+    font-size: 28px;
 }
 
 .active {
     color: #FB5706;
 }
+
+
+
 
 .who_we_are, .positive_training {
     background-color: white;
@@ -120,13 +141,35 @@ body {
 
 /* links - general rule */
 a {
-    color: #2b2b2b;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
     color: #FB5706;
 }
+
+/* footer */  
+footer {
+    font-family: Doggy, Verdana, monospace;
+    background-color: #1A2B00;
+    color: #FB5706;
+    font-size: xx-large;
+    letter-spacing: 2px;
+	padding: 15px;
+    margin: 15px;
+}
+
+footer nav, footer div {
+    padding: 5px;
+}
+
+#font {
+    font-family: Verdana, monospace;
+    font-size: x-large;
+}
+
+/* form */
 
 .booking_form {
 	width: 750px;
