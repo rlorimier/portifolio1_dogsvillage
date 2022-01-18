@@ -1,3 +1,9 @@
+
+/* #DCDCDC light grey
+    #2b2b2b dark grey
+    #FB5706 orange
+    #91cf97 green */
+
 body {
     font-family: Verdana, Courier, Arial;
     background-color: #FAFAFA;
@@ -27,36 +33,37 @@ body {
 
 }
 
-.header_dog, .main_menu, footer {
+.header_dog, footer {
 	color: #FB5706;
 	background-color: #DCDCDC;
 	font-weight: bold;
 	padding: 8px;
 }
 
-.main_menu{
-    font-size: large;
+
+/* main menu */
+#main_menu {
+    color: #FB5706;
+	background-color: #DCDCDC;
+    font-size: larger;
+    font-weight: bold;
+	text-align: center;
+	padding: 2px;
 }
 
-/*.who_we_are, .positive_training {
-    border: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-}*/
-
-/*.main_page_article {
-    width: 500px;
-    position: relative;
-    display: inline-box;
+#main_menu li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 40px;
 }
 
-.who_we_are, .positive_training {
-	width: 680px;
-	padding: 25px;
-	border-radius: 8px;
-	margin: 25px;
-	background-color: white;
-}*/
+#main_menu i {
+    color: #FB5706;
+}
+
+.active {
+    color: #FB5706;
+}
 
 .who_we_are, .positive_training {
     background-color: white;
@@ -111,8 +118,10 @@ body {
     text-transform: uppercase;
 }
 
+/* links - general rule */
 a {
     color: #2b2b2b;
+    text-decoration: none;
 }
 
 a:hover {
@@ -143,7 +152,3 @@ a:hover {
 
 
 
-/* #DCDCDC light grey
-    #2b2b2b dark grey
-    #FB5706 orange
-    #91cf97 green */
