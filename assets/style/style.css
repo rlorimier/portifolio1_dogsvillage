@@ -23,7 +23,9 @@
 }
 
 body {
-    background-color: #EBE5D8;
+    font-family: TinDog, Verdana, monospace;
+    font-size: larger;
+    background-color: #EAFCAD;
 }
 
 /* header */
@@ -83,9 +85,41 @@ body {
     color: #FB5706;
 }
 
+/* article main page */
+
+#main_page_article {
+    background-color: white;
+    text-align: justify;
+    margin: 10px;
+}
 
 
+#main_page_article h2, #main_page_article h3 {
+    text-transform: uppercase;
+}
 
+
+/* contact us */
+
+#contact_us {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 5px 500px;
+}
+
+#contact_us h3 {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+/* top page */
+
+#goto_top a {
+    color: black;
+}
+
+/*
 .who_we_are, .positive_training {
     background-color: white;
     width: 680px;
@@ -119,9 +153,6 @@ body {
     color: #2b2b2b;
 }
 
-.clear_float {
-    clear: both;
-}
 
 .text_justify {
     text-align: justify;
@@ -138,6 +169,7 @@ body {
 .text_upper {
     text-transform: uppercase;
 }
+*/
 
 /* links - general rule */
 a {
@@ -155,13 +187,12 @@ footer {
     background-color: #1A2B00;
     color: #FB5706;
     font-size: xx-large;
+    text-align: center;
     letter-spacing: 2px;
-	padding: 15px;
-    margin: 15px;
 }
 
 footer nav, footer div {
-    padding: 5px;
+    padding-top: 7px;
 }
 
 #font {
