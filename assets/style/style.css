@@ -128,7 +128,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* contact us */
+/* contact us main page*/
 #contact_us {
     clear: both;
     background-color: white;
@@ -183,22 +183,49 @@ footer nav, footer div {
     font-size: x-large;
 }
 
-/* form */
-.booking_form {
-	width: 750px;
-	padding: 25px;
-	border-radius: 8px;
-	margin: 25px auto;
-	background-color: white;
+
+
+/* classes page */
+
+#whatweoffer_page {
+    background-color: white;
+    text-align: justify;
+    margin: 30px;
+}
+
+#whatweoffer_page h2, #whatweoffer_page h3 {
+    text-transform: uppercase;
+}
+
+#whatweoffer_page p {
+    text-indent: 20px;
+}
+
+#whatweoffer {
+    text-align: center;
+    margin: 30px 50px;
+    padding: 30px;
 }
 
 
 
-.booking_img {
+#whatweoffer_page figcaption {
+    font-size: small;
+}
+
+#whatweoffer_page figure {
+    float: left;
+    position: relative;
+    margin-right: 30px;
+}
+
+.class_img {
     width: 250px;
     height: 200px;
 }
 
+
+/* images on gallery page */
 #photos {
     clear: both;
     line-height: 2px;
@@ -213,3 +240,12 @@ footer nav, footer div {
 
 
 
+
+/* form */
+.booking_form {
+	width: 750px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
