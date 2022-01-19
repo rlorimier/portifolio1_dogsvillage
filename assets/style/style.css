@@ -178,27 +178,38 @@ footer nav, footer div {
     padding-top: 7px;
 }
 
-#font {
-    font-family: Verdana, monospace;
-    font-size: x-large;
-}
-
-
 
 /* classes page */
 
 #whatweoffer_page {
     background-color: white;
     text-align: justify;
-    margin: 30px;
+    height: 1900px;
+    margin: 30px 50px;;
 }
 
 #whatweoffer_page h2, #whatweoffer_page h3 {
     text-transform: uppercase;
+    text-align: center;
+}
+
+#whatweoffer_page h3 {
+    font-size: x-large;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#whatweoffer_page h4 {
+    padding-top: 5px;
 }
 
 #whatweoffer_page p {
     text-indent: 20px;
+}
+
+#whatweoffer_page ul li {
+    list-style-position: inside;
+    list-style-image: url("../images/paw_icon.png");
 }
 
 #whatweoffer {
@@ -207,7 +218,9 @@ footer nav, footer div {
     padding: 30px;
 }
 
-
+#whatweoffer_page section {
+    margin: 80px 50px;
+}
 
 #whatweoffer_page figcaption {
     font-size: small;
@@ -225,8 +238,10 @@ footer nav, footer div {
 }
 
 
+
 /* images on gallery page */
 #photos {
+    margin: 30px 50px;
     clear: both;
     line-height: 2px;
     column-count: 4;
