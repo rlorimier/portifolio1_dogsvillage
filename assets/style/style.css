@@ -88,24 +88,53 @@ body {
 /* article main page */
 
 #main_page_article {
+    margin: 30px 50px;
+    display: inline-block;
+}
+#whatis {
     background-color: white;
     text-align: justify;
-    margin: 10px;
+    text-indent: 20px;
+    width: 43%;
+    height: 450px;
+    padding: 25px;
+    position: relative;
+    float: left;
 }
 
+#whoweare {
+    background-color: white;
+    text-align: justify;
+    text-indent: 20px;
+    width: 43%;
+    height: 450px;
+    padding: 25px;
+    position: relative;
+    float: right;
+}
+
+#whoweare a {
+    color: black;
+}
+
+#whoweare a:hover {
+    color: #FB5706;
+    text-decoration: underline;
+}
 
 #main_page_article h2, #main_page_article h3 {
     text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
-
 /* contact us */
-
 #contact_us {
+    clear: both;
     background-color: white;
     text-align: center;
     padding: 15px;
-    margin: 5px 500px;
+    margin: 15px 500px;
 }
 
 #contact_us h3 {
@@ -119,59 +148,12 @@ body {
     color: black;
 }
 
-/*
-.who_we_are, .positive_training {
-    background-color: white;
-    width: 680px;
-    height: 360px;
-    padding: 25px;
-    margin: auto 25px;
-    position: relative;
-    display: inline-block;
+#goto_top a:hover {
+    color: #FB5706;
+    text-decoration: underline;
 }
 
-.who_we_are {
-    float: right;
-    margin-top: -18px;
-}
-
-.positive_training {
-    float: left;
-}
-
-.main_page_contact {
-    float: left;
-    background-color: white;
-    width: 680px;
-    height: 130px;
-    padding: 25px;
-    margin: 40px;
-    position: relative;
-    left: 400px;
-    font-weight: bolder;
-    font-size: large;
-    color: #2b2b2b;
-}
-
-
-.text_justify {
-    text-align: justify;
-}
-
-.text_center{
-    text-align: center;
-}
-
-.text_right {
-    text-align: right;
-}
-
-.text_upper {
-    text-transform: uppercase;
-}
-*/
-
-/* links - general rule */
+/* links - rule for nav menu and footer */
 a {
     color: white;
     text-decoration: none;
@@ -179,6 +161,7 @@ a {
 
 a:hover {
     color: #FB5706;
+    text-decoration: underline;
 }
 
 /* footer */  
@@ -201,7 +184,6 @@ footer nav, footer div {
 }
 
 /* form */
-
 .booking_form {
 	width: 750px;
 	padding: 25px;
@@ -210,12 +192,7 @@ footer nav, footer div {
 	background-color: white;
 }
 
-/*.doggy_img {
-    background-image: url("../images/dog_sniff.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
+
 
 .booking_img {
     width: 250px;
