@@ -237,6 +237,15 @@ footer nav, footer div {
 }
 
 /* images on gallery page */
+#gallery {
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 30px;
+    margin: 30px 50px;
+    padding: 20px;
+}
+
 #photos {
     margin: 30px 50px;
     clear: both;
@@ -249,9 +258,6 @@ footer nav, footer div {
     width: 100%;
     border: 2px solid #1A2B00;
 }
-
-
-
 
 /* booking page */
 #booking_form {
