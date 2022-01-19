@@ -178,14 +178,13 @@ footer nav, footer div {
     padding-top: 7px;
 }
 
-
 /* classes page */
 
 #whatweoffer_page {
     background-color: white;
     text-align: justify;
     height: 1900px;
-    margin: 30px 50px;;
+    margin: 30px 50px;
 }
 
 #whatweoffer_page h2, #whatweoffer_page h3 {
@@ -237,8 +236,6 @@ footer nav, footer div {
     height: 200px;
 }
 
-
-
 /* images on gallery page */
 #photos {
     margin: 30px 50px;
@@ -256,11 +253,53 @@ footer nav, footer div {
 
 
 
-/* form */
-.booking_form {
+/* booking page */
+#booking_form {
 	width: 750px;
 	padding: 25px;
-	border-radius: 8px;
 	margin: 25px auto;
 	background-color: white;
+    text-align: center;
+}
+
+#booking_form h5 {
+    text-align: right;
+}
+
+#makea_booking {
+    margin-bottom: 30px;
+}
+
+#makea_booking h2 {
+    text-transform: uppercase;
+}
+
+legend {
+    color: #FB5706;
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+fieldset {
+    padding-bottom: 5px;
+    border: .5px solid #FB5706;
+    margin: 20px;
+}
+
+fieldset p {
+    padding: 3px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea, #service_type {
+    font-size: large;
+    border: 1px solid;
+}
+
+input[type=submit], input[type=reset] {
+    padding: 6px 10px;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #FB5706;
+    font-weight: bolder;
 }
