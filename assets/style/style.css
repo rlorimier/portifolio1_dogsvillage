@@ -73,7 +73,7 @@ body {
 #main_menu li {
     display: inline;
     list-style-type: none;
-    padding-left: 30px;
+    padding: 0 15px;
 }
 
 #main_menu i {
@@ -172,10 +172,11 @@ footer {
     font-size: xx-large;
     text-align: center;
     letter-spacing: 2px;
+    padding: 7px;
 }
 
 footer nav, footer div {
-    padding-top: 7px;
+    padding: 7px 0;
 }
 
 #font {
@@ -316,4 +317,48 @@ input[type=submit]:hover, input[type=reset]:hover {
 }
 
 /* responsive elements */
+@media screen and (max-width: 1400px) {
 
+    #photos {
+        columns: 3;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    #photos {
+        margin: 20px 30px;
+        columns: 2;
+    }
+
+    #gallery {
+        margin: 20px 30px;
+    }
+    
+}
+
+@media screen and (max-width: 608px) {
+
+    #photos {
+        columns: 1;
+    }
+
+    
+}
+
+@media screen and (max-width: 410px) {
+
+    footer a {
+        padding: 50px;
+    }
+
+    footer div p {
+        font-size: x-large;
+    }
+
+    #font {
+        font-size: medium;
+    }
+    
+}
