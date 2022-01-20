@@ -178,6 +178,11 @@ footer nav, footer div {
     padding-top: 7px;
 }
 
+#font {
+    font-family: verdana, monospace;
+    font-size: x-large;
+}
+
 /* classes page */
 
 #whatweoffer_page {
@@ -309,3 +314,6 @@ input[type=submit]:hover, input[type=reset]:hover {
     background-color: #FB5706;
     font-weight: bolder;
 }
+
+/* responsive elements */
+
