@@ -190,8 +190,8 @@ footer nav, footer div {
 #whatweoffer_page {
     background-color: white;
     text-align: justify;
-    height: 1900px;
     margin: 30px 50px;
+    padding-bottom: 2px;
 }
 
 #whatweoffer_page h2, #whatweoffer_page h3 {
@@ -388,6 +388,26 @@ input[type=submit]:hover, input[type=reset]:hover {
     textarea {
         width: 400px;
     }
+
+    #whatweoffer {
+        margin: 30px 15px;
+        padding: 30px 0;
+    }
+
+    #whatweoffer_page {
+        margin: 30px 20px;
+    }
+
+    #whatweoffer_page section {
+        margin: 30px 10px;
+    }
+    
+    #whatweoffer_page figure {
+        float: none;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 5px;
+    }
 }
 
 @media screen and (max-width: 608px) {
@@ -423,6 +443,14 @@ input[type=submit]:hover, input[type=reset]:hover {
     #top_page {
         padding: 70px 0;
     }
+    
+    .class_img {
+        width: 150px;
+        height: 100px;
+    }
+
+    
+
     
 }
 
