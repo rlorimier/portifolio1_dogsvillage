@@ -44,7 +44,8 @@ body {
     font-family: Doggy, Verdana, monospace;
     width: 100%;
     color: #FB5706;
-    margin: 20px;
+    margin-left: 20px;
+    padding: 25px 0;
 }
 
 #top_page h1 {
@@ -336,6 +337,36 @@ input[type=submit]:hover, input[type=reset]:hover {
         margin: 20px 30px;
     }
     
+    #top_page h1 {
+        font-size: 110px;
+    }
+
+    #top_page h2 {
+        font-size: 61px;
+    }
+
+    #top_image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 833px) {
+
+    #main_menu {
+        font-size: 30px;
+    }
+    
+    #main_menu i {
+        color: #FB5706;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+
+    #main_menu li {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 608px) {
@@ -343,14 +374,30 @@ input[type=submit]:hover, input[type=reset]:hover {
     #photos {
         columns: 1;
     }
+   
+}
 
+
+@media screen and (max-width: 475px) {
+
+    #top_page h1 {
+        font-size: 80px;
+    }
+
+    #top_page h2 {
+        font-size: 44px;
+    }
+
+    #top_page {
+        padding: 70px 0;
+    }
     
 }
 
 @media screen and (max-width: 410px) {
 
     footer a {
-        padding: 50px;
+        padding: 70px;
     }
 
     footer div p {
@@ -361,4 +408,24 @@ input[type=submit]:hover, input[type=reset]:hover {
         font-size: medium;
     }
     
+}
+
+@media screen and (max-width: 370px) {
+
+    #top_image {
+        height: 200px;
+    }
+
+    #top_page {
+        padding: 50px 0;
+        margin-left: 12px;
+    }
+    #top_page h1 {
+        font-size: 70px;
+    }
+
+    #top_page h2 {
+        font-size: 39px;
+    }
+
 }
