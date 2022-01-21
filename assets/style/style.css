@@ -360,12 +360,33 @@ input[type=submit]:hover, input[type=reset]:hover {
         color: #FB5706;
         font-size: 20px;
     }
+
+    #booking_form {
+        width: 550px;
+    }
 }
 
 @media screen and (max-width: 654px) {
 
+    body {
+        font-size: large;
+    }
+
     #main_menu li {
         display: block;
+    }
+
+    #booking_form {
+        width: 450px;
+        
+    }
+    
+    fieldset {
+        margin: 20px 0;
+    }
+
+    textarea {
+        width: 400px;
     }
 }
 
@@ -375,8 +396,19 @@ input[type=submit]:hover, input[type=reset]:hover {
         columns: 1;
     }
    
+    
 }
 
+@media screen and (max-width: 535px) {
+
+    #booking_form {
+        width: 270px;
+    }
+
+    textarea {
+        width: 230px;
+    }
+}
 
 @media screen and (max-width: 475px) {
 
