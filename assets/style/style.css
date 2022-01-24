@@ -97,7 +97,7 @@ body {
     text-align: justify;
     text-indent: 20px;
     width: 43%;
-    height: 450px;
+    height: auto;
     padding: 25px;
     position: relative;
     float: left;
@@ -108,7 +108,7 @@ body {
     text-align: justify;
     text-indent: 20px;
     width: 43%;
-    height: 450px;
+    height: auto;
     padding: 25px;
     position: relative;
     float: right;
@@ -135,7 +135,7 @@ body {
     background-color: white;
     text-align: center;
     padding: 15px;
-    margin: 15px 500px;
+    margin: 15px 300px;
 }
 
 #contact_us h3 {
@@ -348,6 +348,10 @@ input[type=submit]:hover, input[type=reset]:hover {
     #top_image {
         height: 250px;
     }
+
+    #contact_us {
+        margin: 15px 100px;
+    }
 }
 
 @media screen and (max-width: 833px) {
@@ -363,6 +367,20 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     #booking_form {
         width: 550px;
+    }
+
+    #main_page_article {
+        display: block;
+    }
+
+    #whatis, #whoweare {
+        width: auto;
+        position: inherit;
+        float: none;
+    }
+
+    #contact_us {
+        margin: 30px;
     }
 }
 
