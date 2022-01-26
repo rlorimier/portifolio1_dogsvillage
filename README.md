@@ -35,6 +35,8 @@
     - Favicon for favicon
     - Font Awesome for icons
     - ColorSpace for color pallet
+    - Google Dev Tools for responsiveness
+    - Visual Studio Code as IDE
     - Git for version control
     - GitHub for keeping the files, documents and deployment of the website
 
@@ -56,17 +58,22 @@
       - [Pexels](https://www.pexels.com/?locale=en-us)
 
 ## Testing
-    Home - Warning for lack of heading on the articles
-    > The heading is inside the child. The html structure consists in <article><section><h2>
 
-    Classes - No error
+### Browser Testing
+    The website has been tested in Google Chrome, Microsoft Edge, Firefox, Internet Explorer and Samsung Internet.
+#### Issue
+On Internet Explorer the primary fonts are not supported, however the website is still funcional and works as intended.
 
-    Booking - No error
+### Validators
+    The website has been through W3C HTML Validator and the results are as follows:
+        - Home - Warning for lack of heading on the articles
+            > The heading is inside the child. The html structure consists in <article><section><h2>
+        - Classes - No error
+        - Booking - No error
+        - Gallery - Warning for lack of heading on the section
+            > Section only contain photos
 
-    Gallery - Warning for lack of heading on the section
-    > Section only contain photos
-
-    CSS file - No error 
+    The website has also been through W3C CSS Validator with no errors/warnings shown.
 
 ## Deployment
     Coming soon
