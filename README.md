@@ -13,20 +13,34 @@
     The company is based in Finglas, Co. Dublin, where the classes mostly take place. We also offer individual/private classes for those who, for any reason, can not attend insite.
 
 ## Features
-
-### Exsisting features
+### Existing features
     - Created in HTML5 and CSS using Visual Studio Code.
+  
     - 4 different pages:
-      - Home page
-      - Services offered page
-      - Booking form
-      - Gallery
+      1. Home page
+        Contains a brief information about the company and the type of training offered. Also contains information about how to contact us by phone and email and the address including a map.
+      2. What We Offer page
+        Contains information about all types of training offered, allowing the user to choose the best option available in relation to his/her needs.
+      3. Make Your Booking page
+        Contains a booking form, where the user inputs contact information about him/herself and a few details about the dog, selects the suitable training option and writes us a message if needed.
+      4. Gallery
+        Contais photos of our dogs during insite training.
 
+    - Image and Logo:
+        Featured on all pages, image of the eye and part of the head of a black dog, with the company logo on the left.
+  
+    - Navigation bar:
+        Featured on all pages, the navigation bar includes links to the Home page, What We Offer page, Make your booking page and Gallery page.
+
+    - The Footer:
+        Featured on all pages, the footer section includes links to social media sites for the company. The links will open to a new tab to allow easy navigation for the user.
+    
 ### Features for future implementation
     - Add a reviews page.
     - Booking form to work properly, store, and forward inputted data.
     - Cookie pop-up baner.
     - Covid-19 information.
+    - Another future idea.
 
 ## Technologies used
     - HTML5 for markup
@@ -46,11 +60,9 @@
     - Curso em Video
 
 ## Credits
-
 ### Content
     - The Text used on the What We Offer page was written by the website author.
     - The Text used on the Home page was taken from Wikipedia and compiled by the author.
-    
 ### Media
     - Photos and images used taken from open souces websites: 
       - [Pixabay](https://pixabay.com/)
@@ -58,12 +70,11 @@
       - [Pexels](https://www.pexels.com/?locale=en-us)
 
 ## Testing
-
 ### Browser Testing
-    The website has been tested in Google Chrome, Microsoft Edge, Firefox, Internet Explorer and Samsung Internet.
+    The website buttons, links and functionality has been tested.
+    Tests has been carried out on Google Chrome, Microsoft Edge, Firefox, Internet Explorer and Samsung Internet.
 #### Issue
-On Internet Explorer the primary fonts are not supported, however the website is still funcional and works as intended.
-
+*On Internet Explorer the primary fonts are not supported, however the website is still funcional and works as intended.*
 ### Validators
     The website has been through W3C HTML Validator and the results are as follows:
         - Home - Warning for lack of heading on the articles
