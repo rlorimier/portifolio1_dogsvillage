@@ -1,11 +1,11 @@
 # Dog's Village
 
-    For my Milestone Project 1 on Code Institute's Diploma in Software Developement course I have created a dog training website.
-    This website was develop to people searching for help to train their dogs. On the main page there is a brief explanation about what positive dog training is and the trainers. There is also a page where you can find out more information regarding all types of training offered, a page where you can book your dog's training section and a gallery.
+For my Milestone Project 1 on Code Institute's Diploma in Software Developement course I have created a dog training website.
+This website was develop to people searching for help to train their dogs. On the main page there is a brief explanation about what positive dog training is and the trainers. There is also a page where you can find out more information regarding all types of training offered, a page where you can book your dog's training section and a gallery.
 
-    You can check out the website by clicking [HERE](https://rlorimier.github.io/portifolio1_dogsvillage/)
+You can check out the website by clicking [HERE](https://rlorimier.github.io/portifolio1_dogsvillage/)
     
-    ![Dog's Village](https://files.slack.com/files-pri/T0L30B202-F030BM4LKAM/screenshot_2022-01-24_at_19.43.56.png)
+![Dog's Village](https://files.slack.com/files-pri/T0L30B202-F030BM4LKAM/screenshot_2022-01-24_at_19.43.56.png)
 
 ## Who is this for?
     Dog's Village is a company that provides especialized cage and force free dog training.
