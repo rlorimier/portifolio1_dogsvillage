@@ -87,7 +87,7 @@
     The website has also been through W3C CSS Validator with no errors/warnings shown.
 
 ## Deployment
-    Coming soon
+    To deploy
 
 
     
