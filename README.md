@@ -66,11 +66,10 @@ Featured on all pages, the footer section includes links to social media sites f
 - The Text used on the What We Offer page was written by the website author.
 - The Text used on the Home page was taken from Wikipedia and compiled by the author.
 ### Media
-- Photos and images taken from open souces websites: 
+- Photos and images taken from open sources websites: 
     - [Pixabay](https://pixabay.com/)
     - [Freepik](https://www.freepik.com/) 
     - [Pexels](https://www.pexels.com/?locale=en-us)
-
 ## Testing
 ### Browser Testing
 The website buttons, links and functionality has been tested.
@@ -79,12 +78,10 @@ Tests has been carried out on Google Chrome, Microsoft Edge, Firefox, Internet E
 *On Internet Explorer the primary fonts are not supported, however the website is still funcional and works as intended.*
 ### Validators
 - HTML: The website has been through W3C HTML Validator and the results are as follows:
-  - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Findex.html) - Warning for lack of heading on the articles
-     #### *The heading is inside the child. The html structure consists in article>section>h2>*
-  - [Classes](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Fclasses.html) - No error
-  - [Booking](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Fbooking.html) - No error
-  - [Gallery](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Fgallery.html) - Warning for lack of heading on the section
-    #### *Section only contains photos*
+  - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Findex.html) - Warning for lack of heading on the articles: *The heading is inside the child. The html structure consists in article>section>h2>*
+  - [Classes](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Fclasses.html) - No error/warning
+  - [Booking](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Fbooking.html) - No error/warning
+  - [Gallery](https://validator.w3.org/nu/?doc=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Fgallery.html) - Warning for lack of heading on the section: *Section only contains photos*
 
 - CSS: The website has also been through Jigsaw Validator with [no errors/warnings](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) shown.
 
