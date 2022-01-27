@@ -85,8 +85,26 @@ Tests has been carried out on Google Chrome, Microsoft Edge, Firefox, Internet E
 
 - CSS: The website has also been through Jigsaw Validator with [no errors/warnings](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frlorimier.github.io%2Fportifolio1_dogsvillage%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) shown.
 
-## Deployment
-Coming soon
+## Creating a Repository and Deploying
+- The steps to create a new repository:
+  1) Logged in my GitHub page, clicked in Repositories then New.
+  2) Typed a name for the respository, selected Public and Add README file, then Create repository.
+  3) On my GitHub Desktop, selected Add and then Clone a repository.
+  4) On my Visual Studio Code (VSC), selected Open Folder and then selected the new created folder.
+  5) Started coding.
+
+- The steps to commit and push commits:
+  1) Every alteration on the files was being saved automatically.
+  2) GitHub Desktop is connected with VSC and showns every changes made on the files.
+  3) After every significant amount of coding is time for local commits:
+    - On GitHub Desktop, type in a name for the commit and click Commit to Main.
+  4) After a work day, the last local commit is done and then click in Push Origim to commit all local commits to GitHub repository.
+
+- To Deploy:
+  1) On GitHub website, select the repository and then click Settings.
+  2) On the left side menu, click Pages.
+  3) At Source, select the option Main and then Save.
+  4) The page is reloaded and will show the link for your website. The link might take a few minutes to work properly.
 
 
 
